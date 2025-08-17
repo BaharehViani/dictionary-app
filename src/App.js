@@ -13,7 +13,7 @@ function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Bahareh Viani</small>
+          <small>Coded by Bahareh Viani | <a href="https://github.com/BaharehViani/dictionary-app">GitHub Repo</a></small>
         </footer>
       </div>
     </div>
