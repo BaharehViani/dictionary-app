@@ -1,5 +1,4 @@
 import Synonyms from "./Synonyms";
-import "./Meaning.css";
 
 export default function Meaning(props) {
   if (props.meaning) {

@@ -2,7 +2,6 @@ import { useState } from "react";
 import axios from "axios";
 import Result from "./Result";
 import Photos from "./Photos";
-import "./Dictionary.css";
 
 export default function Dictionary(props) {
   const [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -58,7 +57,7 @@ export default function Dictionary(props) {
               onChange={handleKeywordChange}
             />
           </form>
-          <small className="hint">i.e. paris, wine, yoga, coding</small>
+          <small className="hint">i.e. plate, book, yoga, coding</small>
         </section>
         <Result definition={definition} />
         <Photos photos={photos} />

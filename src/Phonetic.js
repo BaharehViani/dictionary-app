@@ -1,5 +1,3 @@
-import "./Phonetic.css";
-
 export default function Phonetic(props) {
   if (props.phonetic) {
     return (
