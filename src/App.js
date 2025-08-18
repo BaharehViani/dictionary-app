@@ -7,7 +7,22 @@ function App() {
       <div className="container">
         <Dictionary defaultKeyword="garden" />
         <footer>
-          <small>Coded by Bahareh Viani | <a href="https://github.com/BaharehViani/dictionary-app" rel="noreferrer" target="_blank">GitHub Repo</a></small>
+          Coded by{" "}
+          <a
+            href="https://github.com/BaharehViani"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Bahareh Viani
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://github.com/BaharehViani/dictionary-app"
+            rel="noreferrer"
+            target="_blank"
+          >
+            GitHub Repo
+          </a>
         </footer>
       </div>
     </div>

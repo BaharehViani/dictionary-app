@@ -11,27 +11,27 @@
   list-style: none;
   display: inline-block;
   margin-right: 15px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .Meaning h3 {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 25px;
+  line-height: 30px;
   margin-bottom: 20px;
   color: #000;
 }
 
 .Meaning p {
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 18px;
   color: #000;
   margin: 20px 0 10px;
 }
 
 .Meaning em {
-  font-size: 14px;
-  line-height: 15px;
+  font-size: 15px;
+  line-height: 16px;
   color: #666;
 }
 
@@ -41,8 +41,8 @@
 
 .Phonetic h2 {
   font-weight: 600;
-  font-size: 17px;
-  line-height: 19px;
+  font-size: 18px;
+  line-height: 20px;
   color: #666;
   display: inline;
 }
@@ -50,8 +50,8 @@
 .Result h1 {
   font-style: normal;
   font-weight: 600;
-  font-size: 37px;
-  line-height: 43px;
+  font-size: 38px;
+  line-height: 44px;
   color: #000;
 }
 
@@ -76,18 +76,18 @@
 .Dictionary label {
   font-weight: 600;
   font-style: normal;
-  font-size: 25px;
+  font-size: 26px;
   margin-bottom: 20px;
   display: block;
-  line-height: 29px;
+  line-height: 30px;
 }
 
 .Dictionary .search-input {
   display: block;
   height: 64px;
   color: #666;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 20px;
+  line-height: 22px;
   padding: 22px;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -109,4 +109,12 @@
   text-align: center;
   margin-top: 20px;
   font-size: 14px;
+}
+
+.App footer a {
+  text-decoration: none;
+}
+
+.App footer a:hover {
+  text-decoration: underline;
 }
